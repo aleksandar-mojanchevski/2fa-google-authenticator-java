@@ -3,8 +3,8 @@ package com.example.auth.google;
 public class MainApplication {
 
 	public static void main(String[] args) throws Exception {
-		String gitSecretKey = "O65RGRM5UYRGFC44";
-		String googleSecretKey = "IHXK GAO3 4ZG7 DXDE 3BCP 5AT4 6PTU GRZ3";
+		String gitSecretKey = "ENTERSECRETUPPERCASE";
+		String googleSecretKey = "ENTERSECRETUPPERCASE";
 
 		String secretKey = googleSecretKey;
 		String code = Utils.getTOTPCode(secretKey);
